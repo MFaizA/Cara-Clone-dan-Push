@@ -1,0 +1,36 @@
+CARA CLONE DAN PUSH PROJEK GIT :
+
+#Persiapan Kerja
+1. Masuk ke github.com *bebas dengan browser apa saja
+2. Daftar akun github jika belum punya / Langsung masuk jika sudah mempunyai akun github
+
+#CLONE GIT
+1. Buat File baru di File Exploler di Local Disk D: atau dimana saja beri nama "Clone GIT" *optional atau mau dimana saja boleh,
+2. Masuk ke github.com
+3. Cari file yang ingin anda Clone
+4. Klik "Clone or Download" *Disebelah kanan tengah
+5. Copy URL HTTPS / URL SSH
+6. Buka File Exploler
+7. Pilih folder "Clone GIT" yang sudah kita buat tadi *cukup 1x klik
+8. Klik Kanan lalu klik "Git Bash Here" nanti akan muncul tampilan seperti Termilan/CMD
+9. Ketik "Git clone *paste nama URL yang telah di copy tadi" *tanpa tanda kutip 
+10. Pencet Enter
+11. Tunggu sampai download selesai
+12. Selesai
+
+#PUSH GIT
+1. Masuk ke github.com
+2. Buat Repository baru (New Repositery)
+3. Masukan Nama Repository,Descripsi,Privasi File (Public agar bisa dilihat semua orang/Private untuk orang tertentu saja),Centang Initialize this repository with a README (Untuk membuat catatan) *Optional
+4. Klik "Create Repository"
+5. Cari Folder yang ingin di upload
+6. Klik Kanan Folder lalu pilih "Git Bash Here"
+7. Ketik Git config --global  user.name "Username Git Anda"
+8. Ketik Git config --global user.email "Email Git Anda" 
+9. Ketik $ Git init -> untuk masuk ke direktori folder projek
+10. lalu ketik $ git add * -> Maksud "*" disini untuk mengupload semua projek yang ada dalam folder 
+11. ketik $ Git commit -m "Comment Projek" -> Bebas mis. "Upload Pertama"
+12. ketik $ Git remote add origin *Nama URL Repository *Jika belum kembali ke browser tempat repository klik "Clone or Download" Copy URL Reporitory
+13. lalu terakhir ketik $ Git push origin master
+14. Tunggu sampai upload Selesai
+15. Selesai
